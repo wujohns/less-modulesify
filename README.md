@@ -64,7 +64,7 @@ just see the [less docs]
 ### Examples:
 
 Just in this project's [examples folder]
-[examples folder]: 
+[examples folder]: https://github.com/wujohns/less-modulesify/tree/master/examples
 
 ## Licence  
 MIT  

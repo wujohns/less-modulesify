@@ -1,6 +1,6 @@
 {
   "name": "less-modulesify",
-  "version": "1.0.6",
+  "version": "1.0.8",
   "author": "wujohns",
   "description": "browsrify plugin support css module for less",
   "homepage": "https://github.com/wujohns/less-modulesify",
@@ -33,7 +33,6 @@
     "write": "^0.3.2"
   },
   "devDependencies": {
-    "browserify": "~13.1.1",
-    "less-modulesify": "*"
+    "browserify": "~13.1.1"
   }
 }
