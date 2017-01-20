@@ -33,9 +33,7 @@
     "write": "^0.3.2"
   },
   "devDependencies": {
-    "gulp": "~3.9.1",
     "browserify": "~13.1.1",
-    "vinyl-source-stream": "~1.1.0",
-    "vinyl-buffer": "~1.0.0"
+    "less-modulesify": "*"
   }
 }
