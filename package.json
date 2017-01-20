@@ -2,7 +2,7 @@
   "name": "less-modulesify",
   "version": "1.0.8",
   "author": "wujohns",
-  "description": "browsrify plugin support css module for less",
+  "description": "browserify plugin support css module for less",
   "homepage": "https://github.com/wujohns/less-modulesify",
   "license": "MIT",
   "repository": {
@@ -21,6 +21,9 @@
   "bugs": {
     "url": "https://github.com/wujohns/less-modulesify/issues"
   },
+  "scripts": {
+    "test": ""
+  },
   "engine": {
     "node": ">=4.0.0"
   },
@@ -33,6 +36,8 @@
     "write": "^0.3.2"
   },
   "devDependencies": {
-    "browserify": "~13.1.1"
+    "browserify": "^13.1.1",
+    "mocha": "^3.2.0",
+    "chai": "^3.5.0"
   }
 }
