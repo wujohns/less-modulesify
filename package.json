@@ -1,0 +1,23 @@
+{
+  "name": "less-modulesify",
+  "version": "1.0.0",
+  "author": "wujohns",
+  "description": "browsrify plugin support css module for less",
+  "engine": {
+    "node": ">=4.0.0"
+  },
+  "dependencies": {
+    "lodash": "^4.14.0",
+    "less": "^2.2.0",
+    "postcss": "^5.2.10",
+    "postcss-modules": "^0.6.2",
+    "async": "^2.1.4",
+    "write": "^0.3.2"
+  },
+  "devDependencies": {
+    "gulp": "~3.9.1",
+    "browserify": "~13.1.1",
+    "vinyl-source-stream": "~1.1.0",
+    "vinyl-buffer": "~1.0.0"
+  }
+}

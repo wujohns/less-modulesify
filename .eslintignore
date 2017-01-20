@@ -1,0 +1,9 @@
+# IntelliJ project files
+.idea/
+
+# Dependency dirs
+node_modules/
+
+# Non-core code
+test/
+README.md

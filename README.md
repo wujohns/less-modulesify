@@ -1,2 +1,2 @@
-# less-modulesify
-browsrify plugin suport css module for less
+# less-modulesify  
+browsrify plugin support css module for less
