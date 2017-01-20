@@ -3,6 +3,7 @@
   "version": "1.0.1",
   "author": "wujohns",
   "description": "browsrify plugin support css module for less",
+  "license": "MIT",
   "engine": {
     "node": ">=4.0.0"
   },
@@ -19,5 +20,22 @@
     "browserify": "~13.1.1",
     "vinyl-source-stream": "~1.1.0",
     "vinyl-buffer": "~1.0.0"
-  }
+  },
+  "respository": {
+    "type": "git",
+    "url": "https://github.com/wujohns/less-modulesify.git"
+  },
+  "keywords": [
+    "browserify",
+    "browserify-transform",
+    "browserify-plugin",
+    "css-moduels",
+    "css",
+    "less-modulesify",
+    "less"
+  ],
+  "bugs": {
+    "url": "https://github.com/wujohns/less-modulesify/issues"
+  },
+  "homepage": "https://github.com/wujohns/less-modulesify"
 }
