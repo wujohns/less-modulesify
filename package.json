@@ -1,6 +1,6 @@
 {
   "name": "less-modulesify",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "author": "wujohns",
   "description": "browserify plugin support css module for less",
   "homepage": "https://github.com/wujohns/less-modulesify",
@@ -22,7 +22,7 @@
     "url": "https://github.com/wujohns/less-modulesify/issues"
   },
   "scripts": {
-    "test": ""
+    "test": "./node_modules/mocha/bin/mocha ./test/build.test.js"
   },
   "engine": {
     "node": ">=4.0.0"
