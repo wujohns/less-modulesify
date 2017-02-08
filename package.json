@@ -1,6 +1,6 @@
 {
   "name": "less-modulesify",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "author": "wujohns",
   "description": "browserify plugin support css module for less",
   "homepage": "https://github.com/wujohns/less-modulesify",
