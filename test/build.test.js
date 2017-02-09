@@ -1,6 +1,7 @@
 'use strict';
 
 const fs = require('fs');
+const path = require('path');
 const mocha = require('mocha');
 const should = require('chai').should();
 const browserify = require('browserify');
@@ -9,7 +10,7 @@ const lessModulesify = require('../index');
 describe('compile', () => {
     it('inline-css', (done) => {
         const b = browserify();
-        b.add('./main.js');
+        b.add(path.join(__dirname, './main.js'));
         b.plugin(lessModulesify, {});
         b.bundle((err, buf) => {
             should.not.exist(err);
@@ -20,9 +21,9 @@ describe('compile', () => {
 
     it('output-css', (done) => {
         const b = browserify();
-        b.add('./main.js');
+        b.add(path.join(__dirname, './main.js'));
         b.plugin(lessModulesify, {
-            outputDir: './'
+            outputDir: path.join(__dirname, './')
         });
         b.bundle((err, buf) => {
             should.not.exist(err);
@@ -33,7 +34,7 @@ describe('compile', () => {
 
     it('hasSourcemap', (done) => {
         const b = browserify();
-        b.add('./main.js');
+        b.add(path.join(__dirname, './main.js'));
         b.plugin(lessModulesify, {
             sourceMap: true
         });
@@ -45,7 +46,7 @@ describe('compile', () => {
     });
 
     after((done) => {
-        fs.unlink('./styles.css', (err) => {
+        fs.unlink(path.join(__dirname, './styles.css'), (err) => {
             should.not.exist(err);
             return done();
         });
