@@ -55,6 +55,9 @@ b.bundle();
 
 ### Options:
 
+- `global`: browserify's global transforming
+- `exclude`: the files those will not be transformed. Files can be globs
+- `modulesifyExclude`: the files those will not be modulesify transformed. Files can be globs
 - `outputDir`: the target css will be written into this directory.When not setting it,the style will be inline.  
 - `sourceMap`: using sourceMap or not. Support inline-sourceMap only
 - `lessCompileOption`: you can using original less options here(like: plugins,compress...),excepts sourcemap, for more 
