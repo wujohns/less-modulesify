@@ -1,6 +1,5 @@
 # less-modulesify  
-A browserify plugin support [CSS Modules] feature for less.   
-[CSS Modules]: https://github.com/css-modules/css-modules  
+A browserify plugin support [CSS Modules](https://github.com/css-modules/css-modules) feature for less.
 
 ## Getting started  
 First install the package: `npm install --save less-modulesify`  
@@ -61,13 +60,11 @@ b.bundle();
 - `outputDir`: the target css will be written into this directory.When not setting it,the style will be inline.  
 - `sourceMap`: using sourceMap or not. Support inline-sourceMap only
 - `lessCompileOption`: you can using original less options here(like: plugins,compress...),excepts sourcemap, for more 
-just see the [less docs]
-[less docs]: http://lesscss.org/usage/#programmatic-usage  
+just see the [less docs](http://lesscss.org/usage/#programmatic-usage)
 
 ### Examples:
 
-Just in this project's [examples folder]
-[examples folder]: https://github.com/wujohns/less-modulesify/tree/master/examples
+Just in this project's [examples folder](https://github.com/wujohns/less-modulesify/tree/master/examples)
 
 ## Licence  
 MIT  
