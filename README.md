@@ -43,7 +43,7 @@ b.bundle();
 var b = require('browserify')();
 b.add('./main.js');
 b.plugin(require('less-modulesify'), {
-    outputDir: './dist'
+    outputDir: './dist',
     sourceMap: true,
     lessCompileOption: {
         compress: true
